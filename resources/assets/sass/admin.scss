@@ -1,0 +1,495 @@
+.app-layout {
+  min-height: 100%;
+  background: #f8fafb;
+  .table {
+    td, th {
+      vertical-align: middle;
+      background-color: #ffffff;
+    }
+    thead th {
+      color: #b1afaf;
+      font-weight: 600;
+      border-top: 0;
+    }
+    &.table-striped tbody tr:nth-of-type(odd),
+    &.table-hover tbody tr:hover {
+      background-color: #ffffff;
+    }
+    .fa-sort {
+      color: #bcc6d1 !important;
+    }
+  }
+
+  div[name="SimpleTable"] {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    .btn {
+      font-size: 12px;
+      padding: 3px 7px;
+    }
+  }
+
+  .box-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .nav-tabs {
+    border-bottom: 0;
+    .nav-item.show .nav-link, .nav-link.active {
+      border-color: #ffffff;
+    }
+    .nav-link:focus, .nav-link:hover {
+      outline: none;
+      border-color: transparent;
+    }
+    .nav-link {
+      color: #212529;
+    }
+  }
+  .tab-content {
+    background: #ffffff;
+    padding-top: 15px;
+  }
+  .loading-box {
+    padding: 15px;
+    .fa {
+      margin-right: 5px;
+    }
+  }
+  .dash-br {
+    border-radius: 6px;
+  }
+  .dash-icon-1 {
+    width: 50px;
+    height: 50px;
+    background: #4d7cfe;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    box-shadow: 0 0 1px 5px #4d7cfe52;
+  }
+  .dash-text-1 {
+    width: 70%;
+    padding-left: 20px;
+    h3 {
+      font-size: 1.60rem;
+      font-weight: 400;
+    }
+    span {
+      color: gray;
+    }
+  }
+  .dash-icon-2 {
+    width: 50px;
+    height: 50px;
+    background: #738cc3;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    box-shadow: 0 0 1px 5px #738cc342;
+  }
+  .dash-icon-3 {
+    width: 50px;
+    height: 50px;
+    background: #f46e7f;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    box-shadow: 0 0 1px 5px #f46e7f40;
+  }
+  .dash-icon-4 {
+    width: 50px;
+    height: 50px;
+    background: #6dd230;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    box-shadow: 0 0 1px 5px #6dd2303d;
+  }
+  .add-dash {
+    position: absolute;
+    right: 26px;
+    top: 50%;
+    margin-top: -10px;
+    color: #6dd230;
+    a {
+      color: #6dd230;
+    }
+  }
+  .table-status {
+    position: relative;
+    padding-left: 15px;
+    text-transform: capitalize;
+    &:before {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      margin-top: -5px;
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    &.online:before {
+      background: #86cd03;
+    }
+    &.offline:before {
+      background: #e8e8e8;
+    }
+    &.busy:before {
+      background: #f5a623;
+    }
+  }
+  .table-avatar {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+    background-size: cover !important;
+    background-position: center center !important;
+    margin-right: 10px;
+  }
+  .-page-size-select {
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: auto;
+    height: auto;
+    min-width: 68px;
+  }
+  .date-control {
+    position: relative;
+    background: #ffffff;
+    &:before {
+      position: absolute;
+      right: 7px;
+      top: 50%;
+      margin-top: -9px;
+      content: '';
+      background: url("/images/admin/calendar.png") no-repeat;
+      width: 19px;
+      height: 17px;
+    }
+    .form-control {
+      position: relative;
+      z-index: 1;
+      background: transparent;
+      font-size: 13px;
+      padding-right: 30px;
+      &::placeholder {
+        font-weight: 500;
+        color: #9babbb;
+      }
+    }
+  }
+  .my-psychic-search {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+    .btn {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: #00bff0;
+    }
+    .form-control {
+      background: transparent;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      padding-left: 0;
+      padding-right: 40px;
+      &:focus {
+        background: transparent;
+      }
+      &::placeholder {
+        font-weight: 500;
+        color: #9babbb;
+      }
+    }
+  }
+  .profile-card {
+    position: relative;
+    background: #ffffff;
+    border-radius: .25rem;
+    .profile-card-header {
+      padding: 20px 15px;
+    }
+    .badge-like {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      font-size: 20px;
+      color: #cf041d;
+      cursor: pointer;
+    }
+    .avatar {
+      position: relative;
+      display: table;
+      margin: 0 auto;
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background-size: cover !important;
+      background-position: center center !important;
+      .user-status {
+        position: absolute;
+        height: 20px;
+        right: 13px;
+        bottom: 0;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px solid white;
+        &.online {
+          background: #86cd03;
+        }
+        &.offline {
+          background: #bfbfbf;
+        }
+        &.busy {
+          background: #f5a623;
+        }
+        span {
+          height: 10px;
+          width: 10px;
+          position: absolute;
+          top: 3px;
+          left: 3px;
+          background: white;
+          border-radius: 50%;
+        }
+      }
+    }
+    .name {
+      font-size: 1.25rem;
+    }
+    .text-muted {
+      color: #b3b3b3 !important;
+      font-size: 13px;
+    }
+    .history-link {
+      font-size: 12px;
+    }
+    .btn-email {
+      padding: .75rem 1.25rem;
+      background-color: rgb(242, 244, 246);
+      border-top: 1px solid rgb(255, 255, 255);
+      border-bottom: 1px solid #f2f4f6;
+      border-left: 1px solid #f2f4f6;
+      border-right: 1px solid #f2f4f6;
+      color: #95a6b6;
+      font-weight: 600;
+      border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+      &:hover {
+        background: #404f54;
+        color: #ffffff;
+      }
+    }
+    .btn-success {
+      padding: .75rem 1.25rem;
+      border-top: 1px solid rgb(255, 255, 255);
+      border-bottom: 1px solid #f2f4f6;
+      border-left: 1px solid #f2f4f6;
+      border-right: 1px solid #f2f4f6;
+      font-weight: 600;
+      border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+    }
+  }
+  .my-psychics-featured-advisors {
+    .block {
+      padding: 30px 0 0 0;
+      .block-title {
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+    }
+    .tab-content {
+      background: none;
+    }
+    .Meet .nav-link {
+      padding: 10px;
+      &.active {
+        padding: 10px;
+      }
+    }
+  }
+  .setting-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 20px 0 25px 0;
+  }
+  .settings-submit-btn {
+    font-size: 12px;
+    padding: 11px 30px;
+    border-radius: 3px;
+  }
+  .paypal-checkbox {
+    label:before,
+    label:after {
+      top: 8px !important;
+    }
+    img {
+      margin-left: 5px;
+    }
+  }
+}
+
+ul.chat {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .avatar {
+    margin-top: 6px;
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    background-size: cover !important;
+    background-position: center center !important;
+    border-radius: 50%;
+  }
+  .message {
+    background: whitesmoke;
+    border-radius: 20px 20px 20px 0;
+    padding: 6px 13px;
+    margin: 0 100px 0 10px;
+    word-break: break-word;
+    @media (max-width: 767.98px) {
+      margin: 0 15px 0 10px;
+      border-radius: 10px 10px 10px 0;
+      padding: 6px 10px;
+    }
+    &.primary {
+      margin: 0 10px 0 100px;
+      background: #69b2ff;
+      color: #ffffff;
+      border-radius: 20px 20px 0 20px;
+      @media (max-width: 767.98px) {
+        margin: 0 10px 0 15px;
+        border-radius: 10px 10px 0 10px;
+      }
+    }
+  }
+  .time-ago {
+    margin: 0 10px;
+    color: #949494;
+  }
+}
+
+.typing-indicator {
+  font-style: italic;
+  height: 18px;
+  font-size: 10px;
+  line-height: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 3px 0;
+}
+
+.btn-sent-message {
+  padding: 0;
+  margin-right: 10px;
+  background: transparent;
+  &:hover,
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.text-input-container {
+  position: relative;
+  padding: 5px;
+  background: #f8fafb;
+  .btn-attachment {
+    position: absolute;
+    right: 58px;
+    top: 50%;
+    margin-top: -11px;
+    color: #8496aa;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0;
+    &:hover {
+      color: #00bff0;
+    }
+  }
+  .form-control {
+    height: 40px;
+    box-shadow: none;
+    margin-right: 4px;
+    padding-right: 35px;
+    border: 0;
+    background: transparent;
+    &:focus {
+      background: transparent;
+    }
+    &.has-error {
+      border-color: #dc3545
+    }
+  }
+}
+
+.file-container {
+  position: relative;
+  display: table;
+  margin: 10px;
+  .remove-file {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 19px;
+    height: 20px;
+    width: 20px;
+    transition: all 0.2s ease;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+      background: #FFC104;
+    }
+  }
+}
+
+.file-loading {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 58px;
+  top: 50%;
+  margin-top: -11px;
+}
+
+.chat-layout {
+  min-height: 100%;
+  background: #eefbfe;
+}
+
+.countdown {
+  text-align: center;
+  .item div:first-child {
+    font-size: 14px !important;
+    font-weight: 500;
+  }
+  .item div:last-child {
+    font-size: 12px !important;
+    line-height: normal;
+    height: 16px !important;
+  }
+  * {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+}
+
+.box {
+  background: #ffffff;
+  padding: 20px;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="49px" viewBox="0 0 43 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>trash</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="trash">
+            <path d="M13.792,4.3405 C14.24,4.1115 14.799,4 15.5,4 L25.499,4 C26.2,4 26.759,4.1115 27.207,4.3405 C28.012,4.752 28.335,5.476 28.447,6 L12.553,6 C12.665,5.476 12.988,4.752 13.792,4.3405 Z" id="Path" fill="#00BFF0"></path>
+            <path d="M2.456,44.021 C2.493,45.743 3.565,49 7.364,49 L35.636,49 C39.435,49 40.507,45.743 40.543,44.042 L42.376,0 L0.624,0 L2.456,44.021 Z M40.291,2 L38.544,43.979 C38.538,44.288 38.4,47 35.636,47 L7.364,47 C4.63,47 4.466,44.283 4.455,43.958 L2.709,2 L40.291,2 Z" id="Shape" fill="#222222" fill-rule="nonzero"></path>
+            <path d="M9.5,35 L33.5,35 C34.052,35 34.5,34.553 34.5,34 C34.5,33.447 34.052,33 33.5,33 L9.5,33 C8.948,33 8.5,33.447 8.5,34 C8.5,34.553 8.948,35 9.5,35 Z" id="Shape" fill="#222222" fill-rule="nonzero"></path>
+            <path d="M9.5,30 L33.5,30 C34.052,30 34.5,29.553 34.5,29 C34.5,28.447 34.052,28 33.5,28 L9.5,28 C8.948,28 8.5,28.447 8.5,29 C8.5,29.553 8.948,30 9.5,30 Z" id="Shape" fill="#222222" fill-rule="nonzero"></path>
+            <path d="M9.5,25 L33.5,25 C34.052,25 34.5,24.553 34.5,24 C34.5,23.447 34.052,23 33.5,23 L9.5,23 C8.948,23 8.5,23.447 8.5,24 C8.5,24.553 8.948,25 9.5,25 Z" id="Shape" fill="#222222" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

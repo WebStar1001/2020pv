@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-time</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.95688226,0.652294085 C7.38648977,0.652294085 5.30458817,2.73419569 5.30458817,5.30458817 C5.30458817,7.87498065 7.38648977,9.95688226 9.95688226,9.95688226 C12.5272747,9.95688226 14.6091763,7.87498065 14.6091763,5.30458817 C14.6091763,2.73419569 12.5272747,0.652294085 9.95688226,0.652294085 L9.95688226,0.652294085 Z M9.95688226,12.2830293 C6.85147595,12.2830293 0.652294085,13.8415478 0.652294085,16.9353234 L0.652294085,19.2614704 L19.2614704,19.2614704 L19.2614704,16.9353234 C19.2614704,13.8299171 13.0622886,12.2830293 9.95688226,12.2830293 L9.95688226,12.2830293 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-82.000000, -2840.000000)">
+            <g id="icon-time" transform="translate(82.000000, 2840.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill-opacity="0.7" fill="#000000" xlink:href="#path-1"></use>
+                <g id="↪🎨" mask="url(#mask-2)" fill="#B0B9BE">
+                    <g transform="translate(-4.000000, -4.000000)" id="Rectangle-Copy-18">
+                        <rect x="0" y="0" width="27.9137645" height="27.9137645"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+<h1 style="text-align: center">You have successfully unsubscribed from our newsletter.</h1>
